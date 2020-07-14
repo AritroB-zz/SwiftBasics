@@ -10,12 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myFirstLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        view.backgroundColor = UIColor.blue
-        
+        view.backgroundColor = UIColor.systemBlue
+        myFirstLabel.text = "My name is Aritro and I am 17 years old!"
     }
 
 

@@ -24,15 +24,20 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="urq-3g-cld" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2jV-4F-qBa"/>
                             <constraint firstItem="urq-3g-cld" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dhY-VA-Vsf"/>
                             <constraint firstItem="urq-3g-cld" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sz7-gj-0bD"/>
+                            <constraint firstItem="urq-3g-cld" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="z4d-rE-L2Q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="myFirstLabel" destination="urq-3g-cld" id="Td1-ua-NcY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="139"/>
+            <point key="canvasLocation" x="100" y="-3"/>
         </scene>
     </scenes>
 </document>
